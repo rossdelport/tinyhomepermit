@@ -290,3 +290,4 @@ fieldset.field { border: 0; padding: 0; margin: 0; }
 .nav a.btn-ink, .nav a.btn-ink:hover { color: #fff; }
 .ph-inner { max-width: 800px; }
 .field .radios input { width: auto; padding: 0; border: 0; box-shadow: none; background: none; }
+.nav a.btn { padding: 11px 18px; }
