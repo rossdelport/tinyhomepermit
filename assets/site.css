@@ -334,3 +334,14 @@ fieldset.field { border: 0; padding: 0; margin: 0; }
 .terms { margin: 24px 0 0; border-top: 1px solid var(--line); }
 .terms dt { font-family: var(--serif); font-size: 21px; padding-top: 22px; scroll-margin-top: 90px; }
 .terms dd { margin: 6px 0 0; padding-bottom: 22px; border-bottom: 1px solid var(--line); color: var(--ink-2, inherit); }
+
+/* Direct-response microcopy */
+.micro { font-size: 13.5px; color: var(--muted); margin: -14px 0 22px; }
+.aside-card .micro { margin: 8px 0 0; text-align: center; }
+.band .ps { margin: 26px 0 0; font-size: 15px; opacity: .85; max-width: 560px; }
+.qside { display: grid; gap: 14px; margin: 0 0 28px; }
+.promise { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); background: var(--white); padding: 18px 20px; }
+.promise h3 { font-size: 18px; margin: 0 0 6px; }
+.promise p { margin: 0; font-size: 15px; color: var(--muted); }
+.band .ps strong { color: #fff; }
+@media (min-width: 761px) { .qside { grid-template-columns: repeat(3, 1fr); } }
