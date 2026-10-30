@@ -307,3 +307,25 @@ fieldset.field { border: 0; padding: 0; margin: 0; }
 .prose .checker { margin: 8px 0 32px; }
 @media (max-width: 640px) { .tool { padding: 22px; } .tool .fields { grid-template-columns: 1fr; } }
 .checker .result .btn { white-space: normal; text-align: center; line-height: 1.3; }
+.site-card .sc-logo { width: 48px; height: 48px; margin-bottom: 14px; }
+.site-card .sc-logo svg { width: 48px; height: 48px; display: block; }
+.site-card .sc-logo + h3 { margin-bottom: 2px; }
+
+/* Prices */
+.price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.price-card { display: flex; flex-direction: column; gap: 4px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; text-decoration: none; color: var(--ink); transition: border-color .2s, transform .2s; }
+.price-card:hover { border-color: var(--accent); transform: translateY(-2px); color: var(--ink); }
+.pc-name { font-weight: 600; font-size: 15.5px; }
+.pc-price { font-family: var(--serif); font-weight: 400; font-size: 34px; line-height: 1.15; color: var(--accent); }
+.pc-note { font-size: 14px; line-height: 1.5; color: var(--muted); }
+.price-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 40px; }
+.price-lists h3 { font-size: 20px; }
+.pc-small { font-size: 14px; color: var(--muted); }
+.aside-price { font-size: 15px; font-weight: 600; color: var(--ink) !important; background: var(--accent-soft); border-radius: 10px; padding: 10px 12px; }
+.aside-price a { font-weight: 500; white-space: nowrap; }
+.tile small b { color: var(--accent); font-weight: 600; }
+@media (max-width: 700px) { .price-lists { grid-template-columns: 1fr; } .pc-price { font-size: 30px; } }
+.price-lists .ticks { display: block; }
+.price-lists .ticks li { display: flex; margin: 0 0 10px; font-size: 16px; color: var(--ink-2); }
+.pc-extra { padding-left: 18px; margin: 0; color: var(--ink-2); }
+.pc-extra li { margin: 0 0 8px; }
